@@ -18,4 +18,4 @@ jobs:
         # виконання декількох послідовних команд shell-інтерпретатором
         run: |
           pip install sqlfluff
-          sqlfluff lint $GITHUB_WORKSPACE/DataSchema.sql --dialect postgres
+          sqlfluff lint $GITHUB_WORKSPACE/DataSchemaModified.sql --dialect postgres
